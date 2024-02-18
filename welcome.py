@@ -1,4 +1,3 @@
-print("Welcome to DevOps!")
 print("Basic DevOps tools include:")
 print("- Jenkins")
 print("- Docker")
