@@ -1,14 +1,14 @@
 pipeline {
   agent any
   stages {
-    stage('version') {
+    stage('welcome-message') {
       steps {
-        sh 'python3 --version'
+        sh 'echo "Welcome to DevOps !"'
       }
     }
-    stage('overview') {
+    stage('devops-tools') {
       steps {
-        sh 'python3 welcome.py'
+        sh 'python3 script.py'
       }
     }
   }
